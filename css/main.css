@@ -1,0 +1,81 @@
+body{
+    background: #454545;
+    line-height: 1.7;
+}
+
+a{
+    text-decoration: none;
+}
+
+a,body{
+    color: #eee;
+}
+
+
+.side-bar{
+    float: left;
+    width: 20%;
+    position:fixed;
+}
+
+.side-bar > *{
+    padding:10px;
+}
+
+.side-bar .nav a,
+.side-bar .tag-list a{
+    display: block;
+    padding:6px 20px;
+    color: #999;
+    transition: 200ms;
+}
+.side-bar .nav a{
+    font-weight: 700;
+}
+
+.side-bar .nav a:hover,
+.side-bar .tag-list a:hover{
+    color: #eee;
+}
+
+
+.main{
+    color: #454545;
+    float: right;
+    width: 80%;
+}
+.article-list{
+    margin-right:30%;
+    background: #fff;
+    padding: 20px 30px;
+    box-shadow: #454545; 
+}
+.article-list .item{
+    margin-bottom: 20px;
+}
+
+.article-list .item .title{
+    color:#454545;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.article-list .item .info{
+    font-size: 13px;
+    color: #ccc;
+}
+
+.article-list .item >*{
+    margin:10px;
+}
+
+
+.header .logo{
+    line-height: 1;
+    border: 5px solid #eee;
+    padding: 10px 20px;
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+/* bootcdn->normalize.css */
